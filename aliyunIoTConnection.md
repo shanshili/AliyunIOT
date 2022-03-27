@@ -69,7 +69,7 @@ ${a1UUBhveKMv}.iot-as-mqtt.${cn-shanghai}.aliyuncs.com:1883
 
 
 
-**client : **
+**client :**
 
 |MQTT项目 | 内容|
 | ---------------- | ---------------------------------------- |
