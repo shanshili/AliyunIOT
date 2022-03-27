@@ -3,18 +3,31 @@ Table of Contents
 
   * [步骤](#步骤)
     * [硬件](#硬件)
-    * [云端s](#云端)
-  * [Installation](#installation)
-  * [Uninstallation](#uninstallation)
-  * [Available plugins](#available-plugins)
-  * [Usage](#usage)
-    * [Check available plugins](#check-available-plugins)
-    * [Check available versions for each plugin](#check-available-versions-for-each-plugin)
-    * [Create an environment](#create-an-environment)
-    * [Activate/deactivate environment](#activatedeactivate-environment)
-      * [Activating in a new shell](#activating-in-a-new-shell)
-      * [Activating in the same shell](#activating-in-the-same-shell)
-    * [Get list of environments](#get-list-of-environments)
+      * [TCP Client端配置](#TCP Client端配置)
+      * [透传](#透传)
+    * [云端](#云端)
+      * [三元组](#三元组)
+      * [接入域名 ](#接入域名)
+      * [topic](#topic)
+  * [MQTT报文](#MQTT报文)
+    * [Ⅰ连接报文](#Ⅰ连接报文)
+      * [一、报头]
+        * [1、固定报头]
+        * [2、可变报头]
+      * [二、载荷]
+    * [Ⅱ订阅SUBSCRIBE]
+      * [一、报头]
+        * [1、固定报头]
+        * [2、可变报头]
+      * [二、载荷]
+        * [响应]
+    * [Ⅲ发布PUBLISH （QoS0]
+      * [一、报头]
+        * [1、固定报头]
+        * [2、可变报头]
+      * [二、载荷]
+    * [ⅣPING]
+    * [Ⅴ断开 DISCONNECT]
 
 
 
