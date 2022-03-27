@@ -1,11 +1,9 @@
-➥ ./gh-md-toc https://github.com/ekalinin/envirius/blob/master/README.md
-
 Table of Contents
 =================
 
-  * [envirius](#envirius)
-    * [Idea](#idea)
-    * [Features](#features)
+  * [步骤](#步骤)
+    * [硬件](#硬件)
+    * [云端s](#云端)
   * [Installation](#installation)
   * [Uninstallation](#uninstallation)
   * [Available plugins](#available-plugins)
