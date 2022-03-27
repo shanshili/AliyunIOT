@@ -3,8 +3,8 @@ Table of Contents
 
   * [步骤](#步骤)
     * [硬件](#硬件)
-       * [TCP Client端配置](#TCP Client端配置)
-      * [透传](#透传)
+          * [TCP Client端配置](#TCP Client端配置)
+          * [透传](#透传)
     * [云端](#云端)
       * [三元组](#三元组)
       * [接入域名 ](#接入域名)
