@@ -4,29 +4,45 @@
 ## 硬件：
 
 5V供电，Rx接Tx，Tx接Rx
+
 Baud: 115200
+
 send: AT+RST
 
 #### TCP Client端配置：
 
 AT+CWMODE=1 //配置为station模式
+
    OK
+   
 AT+CWJAP_CUR="$WIFI名","$WIFI密码"  //连接到AP
+
    WIFI CONNECTED
+   
    WIFI GOT IP
+   
    OK
+   
 AT+CIFSR  //查询本机IP
-   +CIFSR:STAIP,"192.168.2.195"
-   +CIFSR:STAMAC,"48:3f:da:44:4f:5a"
+
+   +CIFSR:STAIP,"  "
+   
+   +CIFSR:STAMAC,"  "
+   
    OK  
+   
 AT+CIPMUX=0 //开启单连接
+
    OK
 
 #### 透传：
 
-AT+CIPSTART="TCP","a1UUBhveKMv.iot-as-mqtt.cn-shanghai.aliyuncs.com",1883
+AT+CIPSTART="TCP","Confidentiality confidentiality",1883
+
     CONNECT
+    
     OK
+    
     CLOSED
 
 ## 云端：
