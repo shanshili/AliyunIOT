@@ -39,11 +39,11 @@ AT+CIPMUX=0 //开启单连接
 
 AT+CIPSTART="TCP","Confidentiality confidentiality",1883
 
-    CONNECT
+  CONNECT
     
-    OK
+  OK
     
-    CLOSED
+  CLOSED
 
 ## 云端：
 
