@@ -60,7 +60,7 @@ ${a1UUBhveKMv}.iot-as-mqtt.${cn-shanghai}.aliyuncs.com:1883
 | **mqttclientId**   |    |
 | **mqttUsername**  |         |
 | **mqttPassword** |  |
-| **mqttPassword HMAC-SHA1 ** |  |
+| **mqttPassword HMAC-SHA1** |   |
 | **KeepAlive时长（s）** |  |
 
 #### topic：
