@@ -95,7 +95,7 @@ AT+CIPSTART="TCP","Confidentiality confidentiality",1883
 
 #### 接入域名 
 
-${a1UUBhveKMv}.iot-as-mqtt.${cn-shanghai}.aliyuncs.com:1883
+${  }.iot-as-mqtt.${ }.aliyuncs.com:1883
 
 
 
@@ -206,7 +206,7 @@ ${a1UUBhveKMv}.iot-as-mqtt.${cn-shanghai}.aliyuncs.com:1883
     "id":"1562283421",
     "version":"1.0.0",
     "params":{"temp":12},
-    "method":"thing.event.property.set"
+    "method":"   "
 }
 ```
 
